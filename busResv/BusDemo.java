@@ -1,7 +1,7 @@
 package busResv;
 
-import java.util.Scanner; //nested package/ hierarchical package
-import java.util.ArrayList;
+import java.util.ArrayList; //nested package/ hierarchical package
+import java.util.Scanner;
 
 public class BusDemo {
 
@@ -11,7 +11,7 @@ public class BusDemo {
 		ArrayList<Bus> buses = new ArrayList<Bus>();
 		ArrayList<Booking> bookings = new ArrayList<Booking>();
 		
-		buses.add(new Bus(1,true,2));
+		buses.add(new Bus(1,true,40));
 		buses.add(new Bus(2,false,50));
 		buses.add(new Bus(3,true,48));
 		
